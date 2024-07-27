@@ -8,7 +8,7 @@ RACE = 3
 
 screen = Screen()
 screen.setup(width=810, height=900)
-screen.bgpic("arcade-game.gif")
+screen.bgpic("assets/arcade-game.gif")
 screen.tracer(0)
 
 snake_game_button = Button(game_num=SNAKE, game_name="Snake", color="red", position=(-110, 50), screen=screen)

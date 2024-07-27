@@ -6,7 +6,7 @@ from turtle_crossing_game.turtle_crossing import play_turtle_crossing_game
 
 GAMES = [play_snake_game, play_pong, play_turtle_crossing_game, play_turtle_race]
 FONT_SIZE = 15
-FONT = ('Courier', FONT_SIZE, 'bold')
+FONT = ("Courier", FONT_SIZE, "bold")
 ALIGNMET = "center"
 
 class Button(Turtle):

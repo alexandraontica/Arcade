@@ -20,6 +20,8 @@ class Ball(Turtle):
 
     def bounce_x(self):
         self.x_move *= -1
+
+        # increase speed after hitting a paddle
         self.move_speed *= 0.9
 
     def reset_position(self):
