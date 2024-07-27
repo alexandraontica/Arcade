@@ -50,4 +50,3 @@ def play_pong(screen):
         if border.hit_left_border(ball.xcor()):
             ball.reset_position()
             scoreboard.r_point()
-

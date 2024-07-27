@@ -51,3 +51,4 @@ class CarManager:
     def increase_car_speed(self):
         self.move_speed *= 0.9
         self.move_distance *= 1.1
+        

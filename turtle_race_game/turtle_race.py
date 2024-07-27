@@ -54,4 +54,3 @@ def play_turtle_race(screen):
 
     for turtle in turtles:
         turtle.hideturtle()
-

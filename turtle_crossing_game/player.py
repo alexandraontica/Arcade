@@ -23,4 +23,3 @@ class Player(Turtle):
     
     def reset(self):
         self.goto(STARTING_POSITION)
-

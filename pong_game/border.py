@@ -36,3 +36,4 @@ class Border(Turtle):
         if x < -X_COORD:
             return True
         return False
+    
