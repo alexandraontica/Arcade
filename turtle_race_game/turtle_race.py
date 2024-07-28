@@ -22,8 +22,6 @@ def play_turtle_race(screen):
     
     is_race_on = False
 
-    user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race (red, orange, yellow, green, blue, purple)? Enter a color: ")
-
     colors = ["red", "orange", "yellow", "green", "blue", "purple"]
 
     turtles = []
@@ -35,8 +33,20 @@ def play_turtle_race(screen):
         new_turtle.goto(x=-230, y=-70 + 30 * turtle_index)
         turtles.append(new_turtle)
 
+    user_bet = None
+    while user_bet not in colors:
+        user_bet = screen.textinput(
+            title="Make your bet", 
+            prompt="Which turtle will win the race (red, orange, yellow, green, blue, purple)? Enter a color: "
+        )
+        if user_bet is None:
+            break
+
     if user_bet:
         is_race_on = True
+    else:
+        prompt.write("Race cancelled", align=ALIGNMENT, font=FONT)
+        return
 
     while is_race_on:
         for turtle in turtles:
