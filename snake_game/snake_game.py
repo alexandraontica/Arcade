@@ -8,7 +8,7 @@ def play_snake_game(screen):
     screen.setup(width=600, height=600)
     screen.bgcolor("black")
     screen.bgpic("nopic")
-    screen.title("My Snake Game")
+    screen.title("Snake")
     screen.tracer(0)
 
     border = Border()

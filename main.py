@@ -8,6 +8,7 @@ RACE = 3
 
 screen = Screen()
 screen.setup(width=810, height=900)
+screen.title("PyArcade")
 screen.bgpic("assets/arcade-game.gif")
 screen.tracer(0)
 
