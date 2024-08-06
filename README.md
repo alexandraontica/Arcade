@@ -146,9 +146,9 @@ Help the turtle cross the road by moving it upward using the `Up` key. Avoid the
 Place a bet on a turtle's color and watch the turtles race to the finish line. The game prompts the user to enter a bet and announces the winner once a turtle crosses the finish line.
 
 <p style="text-align: center;">
-    <img src="assets/readme/race1.png" alt="turtle crossing game" width="400">
-    <img src="assets/readme/race2.png" alt="turtle crossing game" width="200">
-    <img src="assets/readme/race3.png" alt="turtle crossing game" width="200">
+    <img src="assets/readme/race1.png" alt="turtle crossing game" height="250">
+    <img src="assets/readme/race2.png" alt="turtle crossing game" height="250">
+    <img src="assets/readme/race3.png" alt="turtle crossing game" height="250">
 </p>
 
 **Controls:**
